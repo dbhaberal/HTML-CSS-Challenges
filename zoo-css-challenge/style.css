@@ -29,6 +29,10 @@ section {
   background-color: #f8f0fb;
 }
 
+#logo {
+  border: 0px;
+}
+
 img {
   border: 5px solid #8075ff;
 }
@@ -76,6 +80,12 @@ footer {
 }
 
 .introduction {
+  background-color: #ffff;
+}
+
+.introduction p {
+  line-height: 1.6;
+  letter-spacing: 1.2px;
 }
 
 #badge {
@@ -85,13 +95,14 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  transition: 0.3s;
 }
 
 #badge:hover {
@@ -112,18 +123,48 @@ footer {
   vertical-align: bottom;
 }
 
+.b1 img {
+  border: 5px solid #0f308a;
+  float: left;
+  margin-left: 2px;
+}
+
+.b2 img {
+  border: 5px solid #036fad;
+  float: left;
+  margin-left: 20px;
+}
+
+.b3 img {
+  border: 5px solid #21a7a7;
+  margin-left: 20px;
+}
+
 .tigers {
   background-color: #0b3c49;
-  color: #f0e100;
+  color: #62aada;
+}
+
+.tigers h2 {
+  color: #19C5F0;
+}
+
+.tigers h3{
+  color: #19C5F0;
 }
 
 .giraffe {
-  background-color: #465775;
+  background-color: #483C46;
   color: #56e39f;
 }
 
-.giraffe h2 {
-  color: #ef6f6c;
+.giraffe h2, h3 {
+  color: #F4743B;
+}
+
+.giraffe p {
+  color: #BEEE62;
+  font-size: 18px;
 }
 
 .card {
@@ -173,6 +214,14 @@ footer {
   margin-bottom: 1em;
 }
 
+.education button {
+  font-size: 20px;
+}
+
+.education button:hover {
+  background-color: rgb(45, 64, 172);
+}
+
 /*Membership*/
 
 .membership {
@@ -188,8 +237,31 @@ footer {
   color: #ff7f11;
 }
 
+.membership p {
+  width: 700px;
+  margin: 0 auto;
+  line-height: 3;
+}
+
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block;
+}
+
+.news h2 {
+  text-align: center;
+}
+
+.koala {
+  background-color: rgb(6, 101, 104);
+}
+
+.koala h2 {
+  color: rgb(0, 248, 227);
+}
+
+.koala p {
+  color: #ffff;
+  line-height: 2;
 }
