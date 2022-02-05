@@ -220,11 +220,11 @@ footer {
   margin-bottom: 1em;
 }
 
-.education button {
+button {
   font-size: 20px;
 }
 
-.education button:hover {
+button:hover {
   background-color: rgb(45, 64, 172);
 }
 
