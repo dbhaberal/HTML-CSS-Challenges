@@ -157,6 +157,7 @@ footer {
 .giraffe {
   background-color: #483C46;
   color: #56e39f;
+  line-height: 1.6;
 }
 
 .giraffe h2, h3 {
@@ -165,7 +166,10 @@ footer {
 
 .giraffe p {
   color: #BEEE62;
-  font-size: 18px;
+}
+
+#larger {
+  font-size: larger;
 }
 
 .card {
